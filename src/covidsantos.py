@@ -21,7 +21,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 csvfilename = os.path.join('..', 'data', 'data.csv')
-graphpath = os.path.join('..', 'docs')
+graphpath = os.path.join('..', 'docs', 'img')
 
 # Read CSV file into DataFrame df
 df = pd.read_csv(csvfilename, parse_dates=[0], dayfirst=True)

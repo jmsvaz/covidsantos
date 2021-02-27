@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Motivação
 
-You can use the [editor on GitHub](https://github.com/jmsvaz/covidsantos/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Estes gráficos são minha tentativa de acompanhar a evolução da [COVID-19](https://pt.wikipedia.org/wiki/COVID-19) na cidade de [Santos/SP](https://pt.wikipedia.org/wiki/Santos), de acordo com as informações divulgadas pela Prefeitura de Santos.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+O site oficial da [Prefeitura de Santos](https://egov.santos.sp.gov.br/santosmapeada/Saude/DadosDEVIG/MapaDEVIG/#) não divulga os dados dessa forma e ainda não existia quando comecei esse acompanhamento, de forma que resolvi produzi-los da maneira que acho mais conveniente.
 
-### Markdown
+Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou na conta da Prefeitura no [Instagram](https://www.instagram.com/santoscidade/).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Gráficos de Acompanhamento
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jmsvaz/covidsantos/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Casos Confirmados](/img/cases.jpg)
+![Novos Casos Confirmados](/img/newcases.jpg)
+![Novos Casos X Casos](/img/newcasescases.jpg)
+![Óbitos Confirmados](/img/deaths.jpg)
+![Novos Óbitos Confirmados](/img/newdeaths.jpg)
+![Novos Óbitos X Óbitos](/img/newdeathsdeaths.jpg)
+![Internações](/img/hospitalization.jpg)
