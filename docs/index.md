@@ -40,3 +40,4 @@ O arquivo CSV utilizado na geração dos gráficos pode ser baixado [aqui](https
 * https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19
 * https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19_no_Brasil
 * https://www.instagram.com/santoscidade/
+* https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png

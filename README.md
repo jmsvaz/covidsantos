@@ -10,6 +10,8 @@ O site oficial da [Prefeitura de Santos](https://egov.santos.sp.gov.br/santosmap
 
 Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou na conta da Prefeitura no [Instagram](https://www.instagram.com/santoscidade/).
 
+O arquivo CSV utilizado na geração dos gráficos pode ser baixado [aqui](https://github.com/jmsvaz/covidsantos/blob/main/data/data.csv?raw=true) ou na página do projeto hospedado no [GitHub](https://github.com/jmsvaz/covidsantos).
+
 ## Fontes
 
 * https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19
