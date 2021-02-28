@@ -14,10 +14,10 @@ Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou n
 
 ## Gráficos de Acompanhamento
 
-![Casos Confirmados](/img/cases.jpg)
-![Novos Casos Confirmados](/img/newcases.jpg)
-![Novos Casos X Casos](/img/newcasescases.jpg)
-![Óbitos Confirmados](/img/deaths.jpg)
-![Novos Óbitos Confirmados](/img/newdeaths.jpg)
-![Novos Óbitos X Óbitos](/img/newdeathsdeaths.jpg)
-![Internações](/img/hospitalization.jpg)
+![Casos Confirmados](/img/cases.svg)
+![Novos Casos Confirmados](/img/newcases.svg)
+![Novos Casos na semana X Casos Totais](/img/newcasescases.svg)
+![Óbitos Confirmados](/img/deaths.svg)
+![Novos Óbitos Confirmados](/img/newdeaths.svg)
+![Novos Óbitos na semana X Óbitos Totais](/img/newdeathsdeaths.svg)
+![Internações](/img/hospitalization.svg)
