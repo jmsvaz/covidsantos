@@ -17,18 +17,22 @@
 # ==============================================================================
 
 import os
+import fileinput
 import pandas as pd
 import matplotlib.pyplot as plt
 
 csvfilename = os.path.join('..', 'data', 'data.csv')
 graphpath = os.path.join('..', 'docs', 'img')
+webfilename = os.path.join('..', 'docs', 'index.md')
+lastupdatestring = 'Última atualização: '
 
 # Read CSV file into DataFrame df
 df = pd.read_csv(csvfilename, parse_dates=[0], dayfirst=True)
 
-# get the first day of the dataset a compute a new column with from the date minus the first date
+# get the first and last day of the dataset
 firstday = df['date'].min()
 lastday = df['date'].max()
+
 df['days']=df['date'] - firstday
 
 df['newcases'] = df['cases'] - df['cases'].shift(1, fill_value=0)
@@ -39,8 +43,9 @@ df['newdeaths'] = df['deaths'] - df['deaths'].shift(1, fill_value=0)
 df['meannewdeaths'] = df['newdeaths'].rolling(7).mean()
 df['weekdeaths'] = df['newdeaths'].rolling(7).sum()
 
-print('First day: ' + str(firstday))
-print('First day: ' + str(lastday))
+print('CovidSantos - Tracking COVID-19 cases in Santos, Brazil.')
+print('First day: ' + firstday.strftime('%Y-%m-%d'))
+print('Last day: ' + lastday.strftime('%Y-%m-%d'))
 
 print('creating graphic: Cases')
 fig = plt.figure(figsize=(10,5))
@@ -113,3 +118,13 @@ plt.legend()
 plt.tick_params(axis = 'both', which = 'major')
 fig.savefig(os.path.join(graphpath, 'hospitalization.svg'), bbox_inches='tight', dpi=150)
 #plt.show()
+
+print('updating website with csv update date')
+with fileinput.FileInput(webfilename, inplace = True, backup ='.bak') as f:
+    for line in f:
+        if lastupdatestring in line:
+            print(lastupdatestring + lastday.strftime('%Y-%m-%d'),end ='\n')
+        else:
+            print(line, end ='') 
+
+print('done')
