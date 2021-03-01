@@ -94,6 +94,7 @@ plt.plot(df['date'], df['meannewdeaths'], label = 'Média semanal de novos óbit
 #plt.xlabel('Date') 
 plt.title('Novos Óbitos Confirmados')
 plt.tick_params(axis = 'both', which = 'major')
+plt.legend()
 fig.savefig(os.path.join(graphpath, 'newdeaths.svg'), bbox_inches='tight', dpi=150)
 #plt.show()
 
