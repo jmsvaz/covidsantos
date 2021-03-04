@@ -20,6 +20,7 @@ import os
 import fileinput
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 csvfilename = os.path.join('..', 'data', 'data.csv')
 graphpath = os.path.join('..', 'docs', 'img')
@@ -48,6 +49,8 @@ df['weekdeaths'] = df['newdeaths'].rolling(7).sum()
 print('CovidSantos - Tracking COVID-19 cases in Santos, Brazil.')
 print('First day: ' + firstday.strftime('%Y-%m-%d'))
 print('Last day: ' + lastday.strftime('%Y-%m-%d'))
+
+sns.set_style("whitegrid")
 
 print('creating graphic: Cases')
 fig = plt.figure(figsize=(10,5))
