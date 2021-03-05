@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #    CovidSantos - Tracking COVID-19 cases in Santos, Brazil.
 #    Copyright (C) 2021 João Marcelo S. Vaz
 #
