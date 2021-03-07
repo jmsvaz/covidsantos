@@ -6,9 +6,11 @@ O site oficial da [Prefeitura de Santos](https://egov.santos.sp.gov.br/santosmap
 
 ## Script
 
-Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou na conta da Prefeitura no [Instagram](https://www.instagram.com/santoscidade/) em um arquivo 'csv' localizado na pasta 'data' .
+Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou na conta da Prefeitura no [Instagram](https://www.instagram.com/santoscidade/) em um arquivo `csv` localizado na pasta `data` .
 
-O script em python lê o arquivo 'csv' e gera os gráficos no formato 'svg', bem como atualiza o arquivo 'index.md'. O site é gerado pelo [Jekyll](https://jekyllrb.com/) e hospedados no [GitHub](https://github.com/), no endereço https://jmsvaz.github.io/covidsantos/.
+O script em python lê o arquivo `csv` e gera os gráficos no formato `svg`, bem como atualiza o arquivo `index.md`, da pasta `docs`. 
+
+O site é hospedado no [GitHub](https://github.com/), sendo gerado pelo [Jekyll](https://jekyllrb.com/) e acessado pelo endereço https://jmsvaz.github.io/covidsantos/.
 
 ## Fontes
 
