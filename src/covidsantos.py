@@ -119,7 +119,7 @@ fig.savefig(os.path.join(graphpath, 'newdeathsdeaths.svg'), bbox_inches='tight',
 
 print('creating graphic: Hospitalization')
 fig = plt.figure(figsize=(10,5))
-plt.plot(df['date'], df['hospitalizeds'], label = 'Internações')
+plt.plot(df['date'], df['hospitalized'], label = 'Internações')
 plt.plot(df['date'], df['UTI'], label = 'UTI')
 #plt.xlabel('Date') 
 plt.title('Internações')
