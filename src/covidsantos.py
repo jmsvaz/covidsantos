@@ -22,6 +22,7 @@ import fileinput
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from matplotlib.dates import date2num
 
 csvfilename = os.path.join('..', 'data', 'data.csv')
 graphpath = os.path.join('..', 'docs', 'img')
@@ -29,7 +30,8 @@ webfilename = os.path.join('..', 'docs', 'index.md')
 lastupdatestring = 'Última atualização: '
 
 # Read CSV file into DataFrame df
-df = pd.read_csv(csvfilename, parse_dates=[0], dayfirst=True)
+# date,cases,deaths,suspects,hospitalized,UTI,totalUTIoccupation,publicUTIoccupation,privateUTIoccupation,vaccinedoses
+df = pd.read_csv(csvfilename, parse_dates=['date'], dayfirst=True)
 
 # get the first and last day of the dataset
 firstday = df['date'].min()
@@ -126,6 +128,30 @@ plt.title('Internações')
 plt.legend()
 plt.tick_params(axis = 'both', which = 'major')
 fig.savefig(os.path.join(graphpath, 'hospitalization.svg'), bbox_inches='tight', dpi=150)
+#plt.show()
+
+print('creating graphic: ICU Occupation')
+fig = plt.figure(figsize=(10,5))
+w = 0.3
+plt.plot(df['date'], df['totalUTIoccupation'], label = 'Ocupação total')
+plt.bar(date2num(df['date']), df['publicUTIoccupation'], label = 'Ocupação da UTI pública', width=w)
+plt.bar(date2num(df['date']) + w, df['privateUTIoccupation'], label = 'Ocupação da UTI privada', width=w)
+#plt.xlabel('Date') 
+plt.title('Ocupação da UTI')
+plt.legend()
+plt.tick_params(axis = 'both', which = 'major')
+fig.savefig(os.path.join(graphpath, 'ICUOccupation.svg'), bbox_inches='tight', dpi=150)
+#plt.show()
+
+print('creating graphic: Vaccine doses')
+fig = plt.figure(figsize=(10,5))
+w = 0.3
+plt.plot(df['date'], df['vaccinedoses'], label = 'Doses de vacinas aplicadas')
+#plt.xlabel('Date') 
+plt.title('Doses de vacinas aplicadas')
+#plt.legend()
+plt.tick_params(axis = 'both', which = 'major')
+fig.savefig(os.path.join(graphpath, 'vaccinedoses.svg'), bbox_inches='tight', dpi=150)
 #plt.show()
 
 print('updating website with csv update date')

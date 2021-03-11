@@ -35,6 +35,13 @@ O arquivo CSV utilizado na geração dos gráficos pode ser baixado [aqui](https
 ## Internações
 ![Internações](/img/hospitalization.svg)
 
+## Ocupação da UTI
+![Ocupação da UTI](/img/ICUOccupation.svg)
+
+## Vacinação
+![Vacinação](/img/vaccinedoses.svg)
+
+
 ## Fontes
 
 * [https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19](https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19)
