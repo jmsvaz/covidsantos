@@ -66,7 +66,7 @@ fig.savefig(os.path.join(graphpath, 'cases.svg'), bbox_inches='tight', dpi=150)
 
 print('creating graphic: New Cases')
 fig = plt.figure(figsize=(10,5))
-plt.bar(x=df['date'], height=df['newcases'], color='grey',label = 'Novos casos')
+plt.bar(x=df['date'], height=df['newcases'], width = 1, color='black',label = 'Novos casos')
 plt.plot(df['date'], df['mean7newcases'], label = 'Média semanal de novos casos')
 plt.plot(df['date'], df['mean30newcases'], label = 'Média mensal de novos casos')
 #plt.xlabel('Date') 
@@ -98,7 +98,7 @@ fig.savefig(os.path.join(graphpath, 'deaths.svg'), bbox_inches='tight', dpi=150)
 
 print('creating graphic: New Deaths')
 fig = plt.figure(figsize=(10,5))
-plt.bar(x=df['date'], height=df['newdeaths'], color='grey',label = 'Novos óbitos')
+plt.bar(x=df['date'], height=df['newdeaths'], width = 1, color='black',label = 'Novos óbitos')
 plt.plot(df['date'], df['mean7newdeaths'], label = 'Média semanal de novos óbitos')
 plt.plot(df['date'], df['mean30newdeaths'], label = 'Média mensal de novos óbitos')
 #plt.xlabel('Date') 
@@ -132,8 +132,8 @@ fig.savefig(os.path.join(graphpath, 'hospitalization.svg'), bbox_inches='tight',
 
 print('creating graphic: ICU Occupation')
 fig = plt.figure(figsize=(10,5))
-w = 0.3
-plt.plot(df['date'], df['totalUTIoccupation'], label = 'Ocupação total')
+w = 0.5
+plt.plot(df['date'], df['totalUTIoccupation'], color='black', label = 'Ocupação total')
 plt.bar(date2num(df['date']), df['publicUTIoccupation'], label = 'Ocupação da UTI pública', width=w)
 plt.bar(date2num(df['date']) + w, df['privateUTIoccupation'], label = 'Ocupação da UTI privada', width=w)
 #plt.xlabel('Date') 
