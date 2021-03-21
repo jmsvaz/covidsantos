@@ -137,6 +137,8 @@ plt.plot(df['date'], df['totalUTIoccupation'], color='black', label = 'Ocupaçã
 plt.bar(date2num(df['date']), df['publicUTIoccupation'], label = 'Ocupação da UTI pública', width=w)
 plt.bar(date2num(df['date']) + w, df['privateUTIoccupation'], label = 'Ocupação da UTI privada', width=w)
 #plt.xlabel('Date') 
+plt.axhline(90,color='red')
+plt.axhline(100,color='black')
 plt.title('Ocupação da UTI')
 plt.legend()
 plt.tick_params(axis = 'both', which = 'major')
