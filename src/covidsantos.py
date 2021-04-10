@@ -30,7 +30,7 @@ webfilename = os.path.join('..', 'docs', 'index.md')
 lastupdatestring = 'Última atualização: '
 
 # Read CSV file into DataFrame df
-# date,cases,deaths,suspects,hospitalized,UTI,totalUTIoccupation,publicUTIoccupation,privateUTIoccupation,vaccinedoses
+# date,cases,deaths,suspectedcases,hospitalized,UTI,totalUTIoccupation,publicUTIoccupation,privateUTIoccupation,vaccinedoses
 df = pd.read_csv(csvfilename, parse_dates=['date'], dayfirst=True)
 
 # get the first and last day of the dataset
@@ -69,6 +69,7 @@ fig = plt.figure(figsize=(10,5))
 plt.bar(x=df['date'], height=df['newcases'], width = 1, color='black',label = 'Novos casos')
 plt.plot(df['date'], df['mean7newcases'], label = 'Média semanal de novos casos')
 plt.plot(df['date'], df['mean30newcases'], label = 'Média mensal de novos casos')
+plt.plot(df['date'], df['suspectedcases'], label = 'Casos suspeitos em investigação')
 #plt.xlabel('Date') 
 plt.title('Novos Casos Confirmados')
 plt.tick_params(axis = 'both', which = 'major')
