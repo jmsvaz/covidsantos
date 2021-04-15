@@ -12,7 +12,7 @@ Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou n
 
 O arquivo CSV utilizado na geração dos gráficos pode ser baixado [aqui](https://github.com/jmsvaz/covidsantos/blob/main/data/data.csv?raw=true) ou na página do projeto hospedado no [GitHub](https://github.com/jmsvaz/covidsantos).
 
-Última atualização: 2021-04-13
+Última atualização: 2021-04-14
 
 ## Casos Confirmados
 ![Casos Confirmados](/img/cases.svg)
