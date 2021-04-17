@@ -24,9 +24,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.dates import date2num
 
-csvfilename = os.path.join('..', 'data', 'data.csv')
-graphpath = os.path.join('..', 'docs', 'img')
-webfilename = os.path.join('..', 'docs', 'index.md')
+csvfilename = os.path.join('.', 'data', 'data.csv')
+graphpath = os.path.join('.', 'docs', 'img')
+webfilename = os.path.join('.', 'docs', 'index.md')
 lastupdatestring = 'Última atualização: '
 
 # Read CSV file into DataFrame df
