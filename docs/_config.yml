@@ -29,7 +29,7 @@ github_username:  jmsvaz
 
 # Build settings
 locale: pt-BR
-theme: jekyll-theme-slate
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
 
