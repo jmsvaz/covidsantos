@@ -12,6 +12,19 @@ O script em python lê o arquivo `csv` e gera os gráficos no formato `svg`, bem
 
 O site é hospedado no [GitHub](https://github.com/), sendo gerado pelo [Jekyll](https://jekyllrb.com/) e acessado pelo endereço https://jmsvaz.github.io/covidsantos/.
 
+## Instalação
+
+Necessita de Python 3 (testado em 3.9.3).
+
+Para montar seu ambiente:
+
+- Instale o Python
+- Crie um virtualenv: `virtualenv env`
+- Instale as dependências: `pip install -r requirements.txt`
+- Rode o script: `./covidsantos.py`
+
+A página inicial do site e os gráficos são gerados em `docs` e `docs/img`, respectivamente.
+
 ## Fontes
 
 * https://www.instagram.com/santoscidade/
