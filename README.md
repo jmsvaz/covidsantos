@@ -20,6 +20,7 @@ Para montar seu ambiente:
 
 - Instale o Python
 - Crie um virtualenv: `virtualenv env`
+- Ative o virtualenv: `source env/bin/activate`
 - Instale as dependências: `pip install -r requirements.txt`
 - Rode o script: `./covidsantos.py`
 
