@@ -12,35 +12,47 @@ Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou n
 
 O arquivo CSV utilizado na geração dos gráficos pode ser baixado [aqui](https://github.com/jmsvaz/covidsantos/blob/main/data/data.csv?raw=true) ou na página do projeto hospedado no [GitHub](https://github.com/jmsvaz/covidsantos).
 
-Última atualização: 2021-05-24
+Última atualização: 2021-05-25
 
 ## Casos Confirmados
+
 ![Casos Confirmados](/img/cases.svg)
 
 ## Novos Casos Confirmados
+
 ![Novos Casos Confirmados](/img/newcases.svg)
 
 ## Novos Casos na semana X Casos Totais
+
 ![Novos Casos na semana X Casos Totais](/img/newcasescases.svg)
 
 ## Óbitos Confirmados
+
 ![Óbitos Confirmados](/img/deaths.svg)
 
 ## Novos Óbitos Confirmados
+
 ![Novos Óbitos Confirmados](/img/newdeaths.svg)
 
 ## Novos Óbitos na semana X Óbitos Totais
+
 ![Novos Óbitos na semana X Óbitos Totais](/img/newdeathsdeaths.svg)
 
 ## Internações
+
 ![Internações](/img/hospitalization.svg)
 
 ## Ocupação da UTI
+
 ![Ocupação da UTI](/img/ICUOccupation.svg)
 
-## Vacinação
-![Vacinação](/img/vaccinedoses.svg)
+## Vacinação Acumulada
 
+![Vacinação Acumulada](/img/vaccinedoses.svg)
+
+## Doses Diárias Aplicadas
+
+![Doses Diárias Aplicadas](/img/newvaccinedoses.svg)
 
 ## Fontes
 
