@@ -14,8 +14,11 @@ Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou n
 
 O arquivo CSV utilizado na geração dos gráficos pode ser baixado [aqui](https://github.com/jmsvaz/covidsantos/blob/main/data/data.csv?raw=true) ou na página do projeto hospedado no [GitHub](https://github.com/jmsvaz/covidsantos).
 
+No cálculo da estimativa da 1ª dose da vacina, foi utilizada a população de Santos estimada para 2020 pelo [IBGE](https://cidades.ibge.gov.br/brasil/sp/santos/panorama) multiplicada pelo percentual da população que já recebeu a 1ª dose publicada pela prefeitura. A 2ª dose foi estimada subtraindo o valor estimado da 1ª dose do número total de doses aplicadas.
+
 ## Fontes
 
 * [https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19](https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19)
 * [https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19_no_Brasil](https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19_no_Brasil)
 * [https://www.instagram.com/santoscidade/](https://www.instagram.com/santoscidade/)
+* [https://cidades.ibge.gov.br/brasil/sp/santos/panorama](https://cidades.ibge.gov.br/brasil/sp/santos/panorama)

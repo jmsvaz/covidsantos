@@ -29,6 +29,8 @@ graphpath = os.path.join('.', 'docs', 'img')
 webfilename = os.path.join('.', 'docs', 'index.md')
 lastupdatestring = 'Última atualização: '
 
+SantosPopulation = 433656
+
 # Read CSV file into DataFrame df
 # date,cases,deaths,suspectedcases,hospitalized,UTI,totalUTIoccupation,publicUTIoccupation,privateUTIoccupation,vaccinedoses
 df = pd.read_csv(csvfilename, parse_dates=['date'], dayfirst=True)
@@ -52,6 +54,9 @@ df['weekdeaths'] = df['newdeaths'].rolling(7).sum()
 df['newvaccinedoses'] = df['vaccinedoses'] - df['vaccinedoses'].shift(1, fill_value=0)
 df['mean7newvaccinedoses'] = df['newvaccinedoses'].rolling(7).mean()
 df['mean30newvaccinedoses'] = df['newvaccinedoses'].rolling(30).mean()
+
+df['firstdose'] = SantosPopulation*df['firstdosepercent']/100
+df['seconddose'] =  df['vaccinedoses'] - df['firstdose']
 
 print('CovidSantos - Tracking COVID-19 cases in Santos, Brazil.')
 print('First day: ' + firstday.strftime('%Y-%m-%d'))
@@ -154,9 +159,11 @@ print('creating graphic: Vaccine doses')
 fig = plt.figure(figsize=(10,5))
 w = 0.3
 plt.plot(df['date'], df['vaccinedoses'], label = 'Doses de vacinas aplicadas')
+plt.plot(df['date'], df['firstdose'], label = '1ª dose (estimativa)')
+plt.plot(df['date'], df['seconddose'], label = '2ª dose (estimativa)')
 #plt.xlabel('Date') 
 plt.title('Doses de vacinas aplicadas')
-#plt.legend()
+plt.legend()
 plt.tick_params(axis = 'both', which = 'major')
 fig.savefig(os.path.join(graphpath, 'vaccinedoses.svg'), bbox_inches='tight', dpi=150)
 #plt.show()
