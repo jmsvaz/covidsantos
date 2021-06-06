@@ -23,6 +23,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.dates import date2num
+import matplotlib.ticker as mtick
 
 csvfilename = os.path.join('.', 'data', 'data.csv')
 graphpath = os.path.join('.', 'docs', 'img')
@@ -155,12 +156,21 @@ plt.tick_params(axis = 'both', which = 'major')
 fig.savefig(os.path.join(graphpath, 'ICUOccupation.svg'), bbox_inches='tight', dpi=150)
 #plt.show()
 
+def percentage(x):
+    return x / SantosPopulation
+
+def absolute(x):
+    return x * SantosPopulation
+
 print('creating graphic: Vaccine doses')
 fig = plt.figure(figsize=(10,5))
 w = 0.3
 plt.plot(df['date'], df['vaccinedoses'], label = 'Doses de vacinas aplicadas')
 plt.plot(df['date'], df['firstdose'], label = '1ª dose (estimativa)')
 plt.plot(df['date'], df['seconddose'], label = '2ª dose (estimativa)')
+plt.axhline(SantosPopulation,color='black')
+sec_ax = plt.gca().secondary_yaxis('right', functions=(percentage, absolute))
+sec_ax.yaxis.set_major_formatter(mtick.PercentFormatter(1.0))
 #plt.xlabel('Date') 
 plt.title('Doses de vacinas aplicadas')
 plt.legend()
