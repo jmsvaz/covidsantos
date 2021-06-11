@@ -64,6 +64,7 @@ print('First day: ' + firstday.strftime('%Y-%m-%d'))
 print('Last day: ' + lastday.strftime('%Y-%m-%d'))
 
 sns.set_style("whitegrid")
+w = 0.5
 
 print('creating graphic: Cases')
 fig = plt.figure(figsize=(10,5))
@@ -143,7 +144,6 @@ fig.savefig(os.path.join(graphpath, 'hospitalization.svg'), bbox_inches='tight',
 
 print('creating graphic: ICU Occupation')
 fig = plt.figure(figsize=(10,5))
-w = 0.5
 plt.plot(df['date'], df['totalUTIoccupation'], color='black', label = 'Ocupação total')
 plt.bar(date2num(df['date']), df['publicUTIoccupation'], label = 'Ocupação da UTI pública', width=w)
 plt.bar(date2num(df['date']) + w, df['privateUTIoccupation'], label = 'Ocupação da UTI privada', width=w)
@@ -166,8 +166,8 @@ print('creating graphic: Vaccine doses')
 fig = plt.figure(figsize=(10,5))
 w = 0.3
 plt.plot(df['date'], df['vaccinedoses'], label = 'Doses de vacinas aplicadas')
-plt.plot(df['date'], df['firstdose'], label = '1ª dose (estimativa)')
-plt.plot(df['date'], df['seconddose'], label = '2ª dose (estimativa)')
+plt.bar(date2num(df['date']), df['firstdose'], label = '1ª dose (estimativa)', width=w)
+plt.bar(date2num(df['date']) + w, df['seconddose'], label = '2ª dose (estimativa)', width=w)
 plt.axhline(SantosPopulation,color='black')
 sec_ax = plt.gca().secondary_yaxis('right', functions=(percentage, absolute))
 sec_ax.yaxis.set_major_formatter(mtick.PercentFormatter(1.0))
