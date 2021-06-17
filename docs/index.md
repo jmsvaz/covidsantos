@@ -2,7 +2,7 @@
 
 Os gráficos a seguir acompanham a evolução da [COVID-19](about.md) na cidade de Santos/SP, de acordo com as informações divulgadas pela Prefeitura de Santos.
 
-Última atualização: 2021-06-14
+Última atualização: 2021-06-17
 
 ## Casos Confirmados
 
