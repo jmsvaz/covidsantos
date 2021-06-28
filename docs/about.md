@@ -14,7 +14,7 @@ Os dados divulgados no WhatsApp ou na conta da Prefeitura no [Instagram](https:/
 
 No cálculo da estimativa da 1ª dose da vacina, foi utilizada a população de Santos estimada para 2020 pelo [IBGE](https://cidades.ibge.gov.br/brasil/sp/santos/panorama) multiplicada pelo percentual da população que já recebeu a 1ª dose publicada pela prefeitura. A 2ª dose foi estimada subtraindo o valor estimado da 1ª dose do número total de doses aplicadas.
 
-O `favicon`do site baixado da [Wikipedia](https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png). Foi feito pelo [CDC](https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention) e está em [domínio público](https://phil.cdc.gov/Details.aspx?pid=23312).
+O `favicon` do site foi baixado da [Wikipedia](https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png). A imagem foi produzida pelo [CDC](https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention) e está em [domínio público](https://phil.cdc.gov/Details.aspx?pid=23312).
 
 ## Fontes
 
