@@ -28,7 +28,6 @@ import matplotlib.ticker as mtick
 csvfilename = os.path.join('.', 'data', 'data.csv')
 graphpath = os.path.join('.', 'docs', 'img')
 webfilename = os.path.join('.', 'docs', 'index.md')
-lastupdatestring = 'Última atualização: '
 siteURL = 'https://jmsvaz.github.io/covidsantos/'
 
 SantosPopulation = 433656
@@ -210,13 +209,5 @@ plt.figtext(0.98, 0.02, siteURL,horizontalalignment='right')
 plt.legend()
 fig.savefig(os.path.join(graphpath, 'newvaccinedoses.svg'), bbox_inches='tight', dpi=150)
 #plt.show()
-
-print('updating website with csv update date')
-with fileinput.FileInput(webfilename, inplace = True, backup ='.bak') as f:
-    for line in f:
-        if lastupdatestring in line:
-            print(lastupdatestring + lastday.strftime('%Y-%m-%d'),end ='\n')
-        else:
-            print(line, end ='') 
 
 print('done')
