@@ -1,6 +1,8 @@
 # COVID-19 em Santos/SP
 
-Os gráficos a seguir acompanham a evolução da [COVID-19](about.md) na cidade de Santos/SP, de acordo com as informações divulgadas pela Prefeitura de Santos.
+Os gráficos a seguir acompanham a evolução da COVID-19 na cidade de Santos/SP, de acordo com as informações divulgadas pela Prefeitura de Santos.
+
+Maiores informações pode ser encontradas [aqui](about.md).
 
 ## Casos Confirmados
 
