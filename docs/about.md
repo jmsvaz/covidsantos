@@ -18,8 +18,8 @@ O `favicon`do site baixado da [Wikipedia](https://commons.wikimedia.org/wiki/Fil
 
 ## Fontes
 
-* [https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19](https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19)
-* [https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19_no_Brasil](https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19_no_Brasil)
-* [https://www.instagram.com/santoscidade/](https://www.instagram.com/santoscidade/)
-* [https://cidades.ibge.gov.br/brasil/sp/santos/panorama](https://cidades.ibge.gov.br/brasil/sp/santos/panorama)
-* [https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png](https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png)
+* <https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19>
+* <https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19_no_Brasil>
+* <https://www.instagram.com/santoscidade/>
+* <https://cidades.ibge.gov.br/brasil/sp/santos/panorama>
+* <https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png>
