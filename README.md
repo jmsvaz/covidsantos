@@ -6,27 +6,25 @@ O site oficial da [Prefeitura de Santos](https://egov.santos.sp.gov.br/santosmap
 
 ## Script
 
-Os dados são compilados manualmente conforme são divulgados pelo WhatsApp ou na conta da Prefeitura no [Instagram](https://www.instagram.com/santoscidade/) em um arquivo `csv` localizado na pasta `data` .
+Os dados divulgados no WhatsApp ou na conta da Prefeitura no [Instagram](https://www.instagram.com/santoscidade/) são compilados manualmente em um arquivo `csv` localizado na pasta `data` .
 
-O script em python lê o arquivo `csv` e gera os gráficos no formato `svg`, bem como atualiza o arquivo `index.md`, da pasta `docs`. 
+O script em python lê o arquivo `csv` e gera os gráficos no formato `svg`.
 
-O site é hospedado no [GitHub](https://github.com/), sendo gerado pelo [Jekyll](https://jekyllrb.com/) e acessado pelo endereço https://jmsvaz.github.io/covidsantos/.
+O site é hospedado no [GitHub](https://github.com/), sendo gerado pelo [Jekyll](https://jekyllrb.com/) e acessado pelo endereço <https://jmsvaz.github.io/covidsantos/>.
 
 ## Instalação
 
-Necessita de Python 3 (testado em 3.9.3).
-
 Para montar seu ambiente:
 
-- Instale o Python
+- Instale o Python 3 (testado em 3.9.5)
 - Crie um virtualenv: `virtualenv env`
 - Ative o virtualenv: `source env/bin/activate`
 - Instale as dependências: `pip install -r requirements.txt`
 - Rode o script: `./covidsantos.py`
 
-A página inicial do site e os gráficos são gerados em `docs` e `docs/img`, respectivamente.
+A página inicial do site encontra-se em `docs` e os gráficos são gerados em `docs/img`.
 
 ## Fontes
 
-* https://www.instagram.com/santoscidade/
-* https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png
+- <https://www.instagram.com/santoscidade/>
+- <https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png>
