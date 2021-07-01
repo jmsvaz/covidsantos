@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg height="340.694063pt" version="1.1" viewBox="0 0 705.6 340.694063" width="705.6pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="340.273125pt" version="1.1" viewBox="0 0 705.6 340.273125" width="705.6pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <metadata>
   <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2021-07-01T18:29:23.022577</dc:date>
+    <dc:date>2021-07-01T18:34:19.373436</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,8 +21,8 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 340.694063 
-L 705.6 340.694063 
+   <path d="M 0 340.273125 
+L 705.6 340.273125 
 L 705.6 0 
 L 0 0 
 z
@@ -40,7 +40,7 @@ z
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <path clip-path="url(#p73b4979443)" d="M 114.404478 298.989375 
+      <path clip-path="url(#p11d25c7bbb)" d="M 114.404478 298.989375 
 L 114.404478 21.789375 
 " style="fill:none;stroke:#cccccc;stroke-linecap:round;stroke-width:0.8;"/>
      </g>
@@ -94,7 +94,7 @@ z
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
-      <path clip-path="url(#p73b4979443)" d="M 250.793982 298.989375 
+      <path clip-path="url(#p11d25c7bbb)" d="M 250.793982 298.989375 
 L 250.793982 21.789375 
 " style="fill:none;stroke:#cccccc;stroke-linecap:round;stroke-width:0.8;"/>
      </g>
@@ -136,7 +136,7 @@ z
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
-      <path clip-path="url(#p73b4979443)" d="M 387.183487 298.989375 
+      <path clip-path="url(#p11d25c7bbb)" d="M 387.183487 298.989375 
 L 387.183487 21.789375 
 " style="fill:none;stroke:#cccccc;stroke-linecap:round;stroke-width:0.8;"/>
      </g>
@@ -186,7 +186,7 @@ z
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
-      <path clip-path="url(#p73b4979443)" d="M 523.572991 298.989375 
+      <path clip-path="url(#p11d25c7bbb)" d="M 523.572991 298.989375 
 L 523.572991 21.789375 
 " style="fill:none;stroke:#cccccc;stroke-linecap:round;stroke-width:0.8;"/>
      </g>
@@ -258,7 +258,7 @@ z
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_5">
-      <path clip-path="url(#p73b4979443)" d="M 82.8 281.48672 
+      <path clip-path="url(#p11d25c7bbb)" d="M 82.8 281.48672 
 L 640.8 281.48672 
 " style="fill:none;stroke:#cccccc;stroke-linecap:round;stroke-width:0.8;"/>
      </g>
@@ -273,7 +273,7 @@ L 640.8 281.48672
     </g>
     <g id="ytick_2">
      <g id="line2d_6">
-      <path clip-path="url(#p73b4979443)" d="M 82.8 174.342405 
+      <path clip-path="url(#p11d25c7bbb)" d="M 82.8 174.342405 
 L 640.8 174.342405 
 " style="fill:none;stroke:#cccccc;stroke-linecap:round;stroke-width:0.8;"/>
      </g>
@@ -288,7 +288,7 @@ L 640.8 174.342405
     </g>
     <g id="ytick_3">
      <g id="line2d_7">
-      <path clip-path="url(#p73b4979443)" d="M 82.8 67.19809 
+      <path clip-path="url(#p11d25c7bbb)" d="M 82.8 67.19809 
 L 640.8 67.19809 
 " style="fill:none;stroke:#cccccc;stroke-linecap:round;stroke-width:0.8;"/>
      </g>
@@ -323,7 +323,7 @@ L 640.8 67.19809
     <g id="ytick_23"/>
    </g>
    <g id="line2d_8">
-    <path clip-path="url(#p73b4979443)" d="M 108.163636 286.389375 
+    <path clip-path="url(#p11d25c7bbb)" d="M 108.163636 286.389375 
 L 155.46181 249.233067 
 L 179.478809 235.268545 
 L 208.539979 212.544424 
@@ -1044,7 +1044,7 @@ z
   </g>
   <g id="text_9">
    <!-- Atualizado em 01/07/2021 -->
-   <g style="fill:#262626;" transform="translate(7.2 331.389375)scale(0.1 -0.1)">
+   <g style="fill:#262626;" transform="translate(7.2 331.389375)scale(0.08 -0.08)">
     <defs>
      <path d="M -9 0 
 L 1750 4581 
@@ -1186,7 +1186,7 @@ z
   </g>
   <g id="text_10">
    <!-- https://jmsvaz.github.io/covidsantos/ -->
-   <g style="fill:#262626;" transform="translate(538.33125 331.389375)scale(0.1 -0.1)">
+   <g style="fill:#262626;" transform="translate(570.345 331.389375)scale(0.08 -0.08)">
     <defs>
      <path d="M 422 0 
 L 422 4581 
@@ -1399,7 +1399,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p73b4979443">
+  <clipPath id="p11d25c7bbb">
    <rect height="277.2" width="558" x="82.8" y="21.789375"/>
   </clipPath>
  </defs>
