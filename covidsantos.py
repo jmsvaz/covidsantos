@@ -75,7 +75,7 @@ plt.tick_params(axis = 'both', which = 'major')
 plt.figtext(0.02, 0.02, 'Atualizado em {}'.format(lastday.strftime('%d/%m/%Y')),fontsize=8)
 plt.figtext(0.98, 0.02, siteURL, horizontalalignment='right',fontsize=8)
 fig.savefig(os.path.join(graphpath, 'cases.svg'), bbox_inches='tight', dpi=150)
-plt.show()
+#plt.show()
 
 print('creating graphic: New Cases')
 fig = plt.figure(figsize=(10,5))
