@@ -30,7 +30,7 @@ graphpath = os.path.join('.', 'docs', 'img')
 webfilename = os.path.join('.', 'docs', 'index.md')
 siteURL = 'https://jmsvaz.github.io/covidsantos/'
 
-SantosPopulation = 433656
+SantosPopulation = 433991
 
 # Read CSV file into DataFrame df
 # date,cases,deaths,suspectedcases,hospitalized,UTI,totalUTIoccupation,publicUTIoccupation,privateUTIoccupation,vaccinedoses
