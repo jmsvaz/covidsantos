@@ -14,6 +14,8 @@ Os dados divulgados no WhatsApp ou na conta da Prefeitura no [Instagram](https:/
 
 No cálculo da estimativa da 1ª dose da vacina, foi utilizada a população de Santos estimada para 2021 pelo [IBGE](https://cidades.ibge.gov.br/brasil/sp/santos/panorama) multiplicada pelo percentual da população que já recebeu a 1ª dose publicada pela prefeitura. A 2ª dose foi estimada subtraindo o valor estimado da 1ª dose do número total de doses aplicadas. Há um erro nessa estimativa porque a prefeitura não divulga a quantidade de doses de reforço aplicadas (3º dose). Assim, a estimativa de 2ª dose está incluindo a 3º dose.
 
+No dia 22/11/2021, a prefeitura alterou a forma de divulgação e vários dados deixaram de serem informados, como número de casos e total de doses aplicadas. Foi acrescentada aquantidade de pessoas com o esquema vacinal completo, mas ainda não alterei o script para considerar essa nova informação.
+
 O `favicon` do site foi baixado da [Wikipedia](https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(CDC-23312).png). A imagem foi produzida pelo [CDC](https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention) e está em [domínio público](https://phil.cdc.gov/Details.aspx?pid=23312).
 
 ## Fontes
